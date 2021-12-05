@@ -1,0 +1,442 @@
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Oct-2021 14:39:10.813 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.54
+26-Oct-2021 14:39:10.816 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2021 13:51:49 UTC
+26-Oct-2021 14:39:10.816 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.54.0
+26-Oct-2021 14:39:10.816 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+26-Oct-2021 14:39:10.816 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.14.14-arch1-1
+26-Oct-2021 14:39:10.816 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+26-Oct-2021 14:39:10.816 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-17-openjdk
+26-Oct-2021 14:39:10.816 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17+35
+26-Oct-2021 14:39:10.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+26-Oct-2021 14:39:10.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54
+26-Oct-2021 14:39:10.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54
+26-Oct-2021 14:39:10.831 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Oct-2021 14:39:10.831 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Oct-2021 14:39:10.831 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+26-Oct-2021 14:39:10.831 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+26-Oct-2021 14:39:10.831 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Oct-2021 14:39:10.831 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/conf/logging.properties
+26-Oct-2021 14:39:10.831 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Oct-2021 14:39:10.831 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Oct-2021 14:39:10.831 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Oct-2021 14:39:10.831 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+26-Oct-2021 14:39:10.831 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+26-Oct-2021 14:39:10.831 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54
+26-Oct-2021 14:39:10.831 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54
+26-Oct-2021 14:39:10.831 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/temp
+26-Oct-2021 14:39:10.832 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+26-Oct-2021 14:39:11.060 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+26-Oct-2021 14:39:11.084 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [414] milliseconds
+26-Oct-2021 14:39:11.103 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Oct-2021 14:39:11.103 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.54]
+26-Oct-2021 14:39:11.107 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/ROOT]
+26-Oct-2021 14:39:11.253 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/ROOT] has finished in [146] ms
+26-Oct-2021 14:39:11.254 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/docs]
+26-Oct-2021 14:39:11.264 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/docs] has finished in [10] ms
+26-Oct-2021 14:39:11.264 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/examples]
+26-Oct-2021 14:39:11.412 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/examples] has finished in [148] ms
+26-Oct-2021 14:39:11.412 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/host-manager]
+26-Oct-2021 14:39:11.427 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/host-manager] has finished in [15] ms
+26-Oct-2021 14:39:11.427 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/manager]
+26-Oct-2021 14:39:11.440 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/manager] has finished in [13] ms
+26-Oct-2021 14:39:11.442 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+26-Oct-2021 14:39:11.448 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [364] milliseconds
+26-Oct-2021 14:55:01.737 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+26-Oct-2021 14:55:01.743 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+26-Oct-2021 14:55:01.770 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+26-Oct-2021 14:55:01.796 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Oct-2021 14:57:23.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.54
+26-Oct-2021 14:57:23.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2021 13:51:49 UTC
+26-Oct-2021 14:57:23.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.54.0
+26-Oct-2021 14:57:23.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+26-Oct-2021 14:57:23.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.14.14-arch1-1
+26-Oct-2021 14:57:23.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+26-Oct-2021 14:57:23.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-17-openjdk
+26-Oct-2021 14:57:23.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17+35
+26-Oct-2021 14:57:23.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+26-Oct-2021 14:57:23.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54
+26-Oct-2021 14:57:23.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54
+26-Oct-2021 14:57:23.123 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Oct-2021 14:57:23.123 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Oct-2021 14:57:23.123 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+26-Oct-2021 14:57:23.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+26-Oct-2021 14:57:23.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Oct-2021 14:57:23.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/conf/logging.properties
+26-Oct-2021 14:57:23.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Oct-2021 14:57:23.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Oct-2021 14:57:23.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Oct-2021 14:57:23.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+26-Oct-2021 14:57:23.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+26-Oct-2021 14:57:23.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54
+26-Oct-2021 14:57:23.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54
+26-Oct-2021 14:57:23.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/temp
+26-Oct-2021 14:57:23.125 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+26-Oct-2021 14:57:23.302 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+26-Oct-2021 14:57:23.316 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [304] milliseconds
+26-Oct-2021 14:57:23.337 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Oct-2021 14:57:23.337 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.54]
+26-Oct-2021 14:57:23.341 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/ROOT]
+26-Oct-2021 14:57:23.472 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/ROOT] has finished in [131] ms
+26-Oct-2021 14:57:23.472 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/docs]
+26-Oct-2021 14:57:23.483 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/docs] has finished in [11] ms
+26-Oct-2021 14:57:23.483 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/examples]
+26-Oct-2021 14:57:23.641 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/examples] has finished in [158] ms
+26-Oct-2021 14:57:23.641 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/host-manager]
+26-Oct-2021 14:57:23.657 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/host-manager] has finished in [16] ms
+26-Oct-2021 14:57:23.657 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/manager]
+26-Oct-2021 14:57:23.670 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/manager] has finished in [13] ms
+26-Oct-2021 14:57:23.672 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+26-Oct-2021 14:57:23.677 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [360] milliseconds
+26-Oct-2021 15:03:53.785 INFO [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/conf/tomcat-users.xml]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Oct-2021 15:04:01.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.54
+26-Oct-2021 15:04:01.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2021 13:51:49 UTC
+26-Oct-2021 15:04:01.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.54.0
+26-Oct-2021 15:04:01.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+26-Oct-2021 15:04:01.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.14.14-arch1-1
+26-Oct-2021 15:04:01.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+26-Oct-2021 15:04:01.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-17-openjdk
+26-Oct-2021 15:04:01.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17+35
+26-Oct-2021 15:04:01.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+26-Oct-2021 15:04:01.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54
+26-Oct-2021 15:04:01.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54
+26-Oct-2021 15:04:01.883 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Oct-2021 15:04:01.883 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Oct-2021 15:04:01.883 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+26-Oct-2021 15:04:01.883 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+26-Oct-2021 15:04:01.883 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Oct-2021 15:04:01.883 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/conf/logging.properties
+26-Oct-2021 15:04:01.883 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Oct-2021 15:04:01.884 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Oct-2021 15:04:01.884 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Oct-2021 15:04:01.884 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+26-Oct-2021 15:04:01.884 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+26-Oct-2021 15:04:01.884 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54
+26-Oct-2021 15:04:01.884 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54
+26-Oct-2021 15:04:01.884 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/temp
+26-Oct-2021 15:04:01.885 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+26-Oct-2021 15:04:02.166 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+26-Oct-2021 15:04:02.182 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[HTTP/1.1-8080]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1049)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:556)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1042)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:724)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:746)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:305)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:271)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:226)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1208)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1221)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:603)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:80)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1046)
+		... 13 more
+26-Oct-2021 15:04:02.183 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [474] milliseconds
+26-Oct-2021 15:04:02.222 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Oct-2021 15:04:02.223 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.54]
+26-Oct-2021 15:04:02.230 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/ROOT]
+26-Oct-2021 15:04:02.425 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/ROOT] has finished in [195] ms
+26-Oct-2021 15:04:02.425 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/docs]
+26-Oct-2021 15:04:02.441 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/docs] has finished in [16] ms
+26-Oct-2021 15:04:02.441 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/examples]
+26-Oct-2021 15:04:02.653 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/examples] has finished in [212] ms
+26-Oct-2021 15:04:02.653 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/host-manager]
+26-Oct-2021 15:04:02.675 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/host-manager] has finished in [21] ms
+26-Oct-2021 15:04:02.675 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/manager]
+26-Oct-2021 15:04:02.694 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/manager] has finished in [19] ms
+26-Oct-2021 15:04:02.697 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [513] milliseconds
+26-Oct-2021 15:04:02.701 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.Net.bind(Net.java:544)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:643)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:388)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:274)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:577)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:864)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:810)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+26-Oct-2021 15:04:02.701 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+26-Oct-2021 15:04:02.701 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+26-Oct-2021 15:04:02.718 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+26-Oct-2021 15:04:02.719 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+26-Oct-2021 16:00:28.791 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+26-Oct-2021 16:00:28.799 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+26-Oct-2021 16:00:28.817 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+26-Oct-2021 16:00:28.846 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Oct-2021 17:53:37.582 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.54
+26-Oct-2021 17:53:37.587 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2021 13:51:49 UTC
+26-Oct-2021 17:53:37.587 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.54.0
+26-Oct-2021 17:53:37.587 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+26-Oct-2021 17:53:37.587 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.14.14-arch1-1
+26-Oct-2021 17:53:37.587 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+26-Oct-2021 17:53:37.587 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-17-openjdk
+26-Oct-2021 17:53:37.587 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17+35
+26-Oct-2021 17:53:37.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+26-Oct-2021 17:53:37.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54
+26-Oct-2021 17:53:37.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54
+26-Oct-2021 17:53:37.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Oct-2021 17:53:37.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Oct-2021 17:53:37.607 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+26-Oct-2021 17:53:37.607 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+26-Oct-2021 17:53:37.607 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Oct-2021 17:53:37.607 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/conf/logging.properties
+26-Oct-2021 17:53:37.607 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Oct-2021 17:53:37.607 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Oct-2021 17:53:37.607 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Oct-2021 17:53:37.607 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+26-Oct-2021 17:53:37.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+26-Oct-2021 17:53:37.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54
+26-Oct-2021 17:53:37.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54
+26-Oct-2021 17:53:37.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/temp
+26-Oct-2021 17:53:37.609 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+26-Oct-2021 17:53:37.993 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+26-Oct-2021 17:53:38.027 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [663] milliseconds
+26-Oct-2021 17:53:38.066 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Oct-2021 17:53:38.066 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.54]
+26-Oct-2021 17:53:38.073 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/ROOT]
+26-Oct-2021 17:53:38.290 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/ROOT] has finished in [216] ms
+26-Oct-2021 17:53:38.290 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/docs]
+26-Oct-2021 17:53:38.308 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/docs] has finished in [17] ms
+26-Oct-2021 17:53:38.308 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/examples]
+26-Oct-2021 17:53:38.582 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/examples] has finished in [273] ms
+26-Oct-2021 17:53:38.582 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/host-manager]
+26-Oct-2021 17:53:38.612 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/host-manager] has finished in [30] ms
+26-Oct-2021 17:53:38.612 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/manager]
+26-Oct-2021 17:53:38.633 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/manager] has finished in [21] ms
+26-Oct-2021 17:53:38.636 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+26-Oct-2021 17:53:38.644 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [617] milliseconds
+26-Oct-2021 18:28:17.859 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+26-Oct-2021 18:28:17.869 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+26-Oct-2021 18:28:17.893 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+26-Oct-2021 18:28:17.918 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Oct-2021 18:53:37.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.54
+26-Oct-2021 18:53:37.504 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2021 13:51:49 UTC
+26-Oct-2021 18:53:37.504 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.54.0
+26-Oct-2021 18:53:37.504 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+26-Oct-2021 18:53:37.504 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.14.14-arch1-1
+26-Oct-2021 18:53:37.504 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+26-Oct-2021 18:53:37.504 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-17-openjdk
+26-Oct-2021 18:53:37.504 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17+35
+26-Oct-2021 18:53:37.504 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+26-Oct-2021 18:53:37.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54
+26-Oct-2021 18:53:37.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54
+26-Oct-2021 18:53:37.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Oct-2021 18:53:37.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Oct-2021 18:53:37.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+26-Oct-2021 18:53:37.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+26-Oct-2021 18:53:37.514 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Oct-2021 18:53:37.514 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/conf/logging.properties
+26-Oct-2021 18:53:37.514 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Oct-2021 18:53:37.514 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Oct-2021 18:53:37.514 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Oct-2021 18:53:37.514 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+26-Oct-2021 18:53:37.514 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+26-Oct-2021 18:53:37.514 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54
+26-Oct-2021 18:53:37.514 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54
+26-Oct-2021 18:53:37.514 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/temp
+26-Oct-2021 18:53:37.515 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+26-Oct-2021 18:53:37.688 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+26-Oct-2021 18:53:37.703 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [301] milliseconds
+26-Oct-2021 18:53:37.726 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Oct-2021 18:53:37.726 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.54]
+26-Oct-2021 18:53:37.730 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/ROOT]
+26-Oct-2021 18:53:37.888 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/ROOT] has finished in [158] ms
+26-Oct-2021 18:53:37.888 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/docs]
+26-Oct-2021 18:53:37.899 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/docs] has finished in [11] ms
+26-Oct-2021 18:53:37.900 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/examples]
+26-Oct-2021 18:53:38.040 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/examples] has finished in [140] ms
+26-Oct-2021 18:53:38.040 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/host-manager]
+26-Oct-2021 18:53:38.057 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/host-manager] has finished in [17] ms
+26-Oct-2021 18:53:38.057 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/manager]
+26-Oct-2021 18:53:38.073 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/manager] has finished in [16] ms
+26-Oct-2021 18:53:38.076 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+26-Oct-2021 18:53:38.081 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [377] milliseconds
+26-Oct-2021 18:54:58.085 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/Webapp-1.0-SNAPSHOT.war]
+26-Oct-2021 18:54:58.111 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/Webapp-1.0-SNAPSHOT.war] has finished in [25] ms
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Oct-2021 18:57:10.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.54
+26-Oct-2021 18:57:10.923 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2021 13:51:49 UTC
+26-Oct-2021 18:57:10.923 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.54.0
+26-Oct-2021 18:57:10.923 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+26-Oct-2021 18:57:10.923 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.14.14-arch1-1
+26-Oct-2021 18:57:10.924 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+26-Oct-2021 18:57:10.924 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-17-openjdk
+26-Oct-2021 18:57:10.924 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17+35
+26-Oct-2021 18:57:10.924 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+26-Oct-2021 18:57:10.924 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54
+26-Oct-2021 18:57:10.924 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54
+26-Oct-2021 18:57:10.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Oct-2021 18:57:10.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Oct-2021 18:57:10.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+26-Oct-2021 18:57:10.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+26-Oct-2021 18:57:10.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Oct-2021 18:57:10.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/conf/logging.properties
+26-Oct-2021 18:57:10.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Oct-2021 18:57:10.935 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Oct-2021 18:57:10.935 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Oct-2021 18:57:10.935 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+26-Oct-2021 18:57:10.935 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+26-Oct-2021 18:57:10.935 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54
+26-Oct-2021 18:57:10.935 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54
+26-Oct-2021 18:57:10.935 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/temp
+26-Oct-2021 18:57:10.936 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+26-Oct-2021 18:57:11.215 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+26-Oct-2021 18:57:11.228 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[HTTP/1.1-8080]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1049)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:556)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1042)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:724)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:746)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:305)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:271)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:226)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1208)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1221)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:603)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:80)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1046)
+		... 13 more
+26-Oct-2021 18:57:11.229 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [482] milliseconds
+26-Oct-2021 18:57:11.262 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Oct-2021 18:57:11.262 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.54]
+26-Oct-2021 18:57:11.275 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/Webapp-1.0-SNAPSHOT.war]
+26-Oct-2021 18:57:11.479 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/Webapp-1.0-SNAPSHOT.war] has finished in [204] ms
+26-Oct-2021 18:57:11.480 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/ROOT]
+26-Oct-2021 18:57:11.504 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/ROOT] has finished in [24] ms
+26-Oct-2021 18:57:11.505 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/docs]
+26-Oct-2021 18:57:11.527 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/docs] has finished in [22] ms
+26-Oct-2021 18:57:11.527 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/examples]
+26-Oct-2021 18:57:11.777 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/examples] has finished in [250] ms
+26-Oct-2021 18:57:11.777 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/host-manager]
+26-Oct-2021 18:57:11.806 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/host-manager] has finished in [28] ms
+26-Oct-2021 18:57:11.806 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/manager]
+26-Oct-2021 18:57:11.834 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/manager] has finished in [27] ms
+26-Oct-2021 18:57:11.838 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [608] milliseconds
+26-Oct-2021 18:57:11.842 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.Net.bind(Net.java:544)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:643)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:388)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:274)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:577)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:864)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:810)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+26-Oct-2021 18:57:11.842 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+26-Oct-2021 18:57:11.842 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+26-Oct-2021 18:57:11.863 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+26-Oct-2021 18:57:11.864 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+26-Oct-2021 21:00:53.163 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+26-Oct-2021 21:00:53.167 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+26-Oct-2021 21:00:53.193 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+26-Oct-2021 21:00:53.218 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Oct-2021 08:49:47.732 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.54
+27-Oct-2021 08:49:47.734 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2021 13:51:49 UTC
+27-Oct-2021 08:49:47.734 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.54.0
+27-Oct-2021 08:49:47.735 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+27-Oct-2021 08:49:47.735 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.14.14-arch1-1
+27-Oct-2021 08:49:47.735 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Oct-2021 08:49:47.735 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-17-openjdk
+27-Oct-2021 08:49:47.735 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17+35
+27-Oct-2021 08:49:47.735 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-Oct-2021 08:49:47.735 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54
+27-Oct-2021 08:49:47.735 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54
+27-Oct-2021 08:49:47.748 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+27-Oct-2021 08:49:47.748 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+27-Oct-2021 08:49:47.748 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+27-Oct-2021 08:49:47.748 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+27-Oct-2021 08:49:47.748 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Oct-2021 08:49:47.748 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/conf/logging.properties
+27-Oct-2021 08:49:47.748 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Oct-2021 08:49:47.748 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Oct-2021 08:49:47.748 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Oct-2021 08:49:47.748 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+27-Oct-2021 08:49:47.748 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Oct-2021 08:49:47.748 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54
+27-Oct-2021 08:49:47.748 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54
+27-Oct-2021 08:49:47.749 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/temp
+27-Oct-2021 08:49:47.749 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+27-Oct-2021 08:49:47.940 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-Oct-2021 08:49:47.957 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [341] milliseconds
+27-Oct-2021 08:49:47.983 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Oct-2021 08:49:47.984 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.54]
+27-Oct-2021 08:49:47.993 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/Webapp-1.0-SNAPSHOT.war]
+27-Oct-2021 08:49:48.143 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/Webapp-1.0-SNAPSHOT.war] has finished in [150] ms
+27-Oct-2021 08:49:48.144 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/ROOT]
+27-Oct-2021 08:49:48.155 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/ROOT] has finished in [12] ms
+27-Oct-2021 08:49:48.156 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/docs]
+27-Oct-2021 08:49:48.166 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/docs] has finished in [10] ms
+27-Oct-2021 08:49:48.166 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/examples]
+27-Oct-2021 08:49:48.355 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/examples] has finished in [189] ms
+27-Oct-2021 08:49:48.355 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/host-manager]
+27-Oct-2021 08:49:48.376 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/host-manager] has finished in [21] ms
+27-Oct-2021 08:49:48.376 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/manager]
+27-Oct-2021 08:49:48.395 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/manager] has finished in [19] ms
+27-Oct-2021 08:49:48.397 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+27-Oct-2021 08:49:48.404 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [446] milliseconds
+27-Oct-2021 08:51:00.832 INFO [http-nio-8080-exec-10] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Webapp-1.0-SNAPSHOT]] after stop() had already been called. The second call will be ignored.
+27-Oct-2021 08:51:01.334 INFO [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Webapp-1.0-SNAPSHOT]
+27-Oct-2021 08:51:12.056 INFO [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/Webapp-1.0-SNAPSHOT.war]
+27-Oct-2021 08:51:12.078 INFO [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/Webapp-1.0-SNAPSHOT.war] has finished in [22] ms
+27-Oct-2021 09:06:30.629 INFO [http-nio-8080-exec-13] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Webapp-1.0-SNAPSHOT]
+27-Oct-2021 09:06:42.016 INFO [http-nio-8080-exec-17] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/Webapp-1.0-SNAPSHOT.war]
+27-Oct-2021 09:06:42.036 INFO [http-nio-8080-exec-17] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/Webapp-1.0-SNAPSHOT.war] has finished in [19] ms
+27-Oct-2021 09:09:12.262 INFO [http-nio-8080-exec-21] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Webapp-1.0-SNAPSHOT]
+27-Oct-2021 09:09:21.473 INFO [http-nio-8080-exec-18] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/Webapp-1.0-SNAPSHOT.war]
+27-Oct-2021 09:09:21.489 INFO [http-nio-8080-exec-18] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/Webapp-1.0-SNAPSHOT.war] has finished in [15] ms
+27-Oct-2021 09:10:45.949 INFO [http-nio-8080-exec-29] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Webapp-1.0-SNAPSHOT]
+27-Oct-2021 09:10:52.775 INFO [http-nio-8080-exec-31] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/Webapp-1.0-SNAPSHOT.war]
+27-Oct-2021 09:10:52.791 INFO [http-nio-8080-exec-31] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/Webapp-1.0-SNAPSHOT.war] has finished in [16] ms
+27-Oct-2021 09:13:12.575 INFO [http-nio-8080-exec-33] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Webapp-1.0-SNAPSHOT]
+27-Oct-2021 09:13:18.809 INFO [http-nio-8080-exec-27] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/Webapp-1.0-SNAPSHOT.war]
+27-Oct-2021 09:13:18.820 INFO [http-nio-8080-exec-27] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/pengrey/Work/UA/IES/P/IES_98475/lab2/lab2_1/apache-tomcat-9.0.54/webapps/Webapp-1.0-SNAPSHOT.war] has finished in [11] ms
+27-Oct-2021 09:14:41.153 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+27-Oct-2021 09:14:41.158 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-Oct-2021 09:14:41.194 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+27-Oct-2021 09:14:41.211 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
